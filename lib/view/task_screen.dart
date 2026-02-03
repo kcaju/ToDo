@@ -101,8 +101,6 @@ class TaskScreen extends StatelessWidget {
                           );
                         },
                         onEdit: () {
-                          print("name :${task['name']}");
-                          print("id :${tasks.id}");
                           Navigator.push(
                             context,
                             MaterialPageRoute(

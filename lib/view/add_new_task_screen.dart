@@ -179,23 +179,14 @@ class AddNewTaskScreen extends StatelessWidget {
                       ),
                     );
                   },
-                  child: isUpdate
-                      ? Text(
-                          "Update Task",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 16,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        )
-                      : Text(
-                          'Create Task',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 16,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
+                  child: Text(
+                    isUpdate ? "Update Task" : 'Create Task',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ),
               ),
             ],
