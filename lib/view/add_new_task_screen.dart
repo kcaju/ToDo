@@ -146,7 +146,6 @@ class AddNewTaskScreen extends StatelessWidget {
 
               SizedBox(height: 100),
 
-              // const Spacer(),
               SizedBox(
                 width: double.infinity,
                 height: 56,
